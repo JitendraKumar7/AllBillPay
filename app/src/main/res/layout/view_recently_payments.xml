@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:layout_margin="@dimen/_2sdp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/view_ivType"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:paddingLeft="@dimen/_7sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:src="@drawable/ic_mobile" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view_ivType"
+            android:orientation="vertical"
+            android:padding="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9654431845"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vodafone"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DL23021620100078"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_10sdp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/view_txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="@dimen/_7sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:text="\u20b950"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/view_txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view_txtAmount"
+            android:paddingRight="@dimen/_7sdp"
+            android:text="Success"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_10sdp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/linearLayout"
+            android:background="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/view_txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:paddingBottom="@dimen/_7sdp"
+            android:paddingLeft="@dimen/_50sdp"
+            android:paddingRight="@dimen/_7sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:text="2016-02-19 20:27:07"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

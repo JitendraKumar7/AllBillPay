@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirm_recharge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_back_white"
+    android:orientation="vertical"
+    tools:context="com.webzone.allbillpay.recharge.ConfirmRechargeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/_6sdp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/promptRecharge" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/con_txtMobile"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_7sdp"
+                android:text="@string/hintMobile"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/con_txtMobileNumber"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_7sdp"
+                android:text="Mobile"
+                android:textSize="@dimen/_13sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_7sdp"
+                android:text="@string/promptOperator"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/con_txtOperator"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_7sdp"
+                android:text="Mobile"
+                android:textSize="@dimen/_13sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_7sdp"
+                android:text="@string/promptAmount"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/con_txtAmount"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_7sdp"
+                android:text="Mobile"
+                android:textSize="@dimen/_13sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/con_txtBtnRecharge"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/back"
+                android:gravity="center"
+                android:padding="@dimen/_7sdp"
+                android:text="@string/actionRecharge"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

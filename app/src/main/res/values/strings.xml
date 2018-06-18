@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AllBillPay</string>
+
+    <string name="promptProfile">User Profile</string>
+    <string name="promptRecharge">Confirm Recharge</string>
+    <string name="promptLogin">Get Started AllbillPay</string>
+    <string name="promptSignUp">Sign Up with AllbillPay</string>
+
+    <string name="actionForgotPassword">Forgot Password?</string>
+    <string name="actionLogin">Login</string>
+    <string name="actionLoginFb">Facebook Login</string>
+    <string name="actionLoginGoogle">Google Login</string>
+    <string name="actionProceed">Proceed</string>
+    <string name="actionRecharge">Confirm to Recharge</string>
+    <string name="actionAddNewUser">Add User</string>
+    <string name="actionRegister">Sign Up</string>
+    <string name="actionSignup">"Don't have an account? Sign up"</string>
+    <string name="app_id">598011577057079</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hintAmount">Enter Amount</string>
+    <string name="hintConPassword">Confirm Password</string>
+    <string name="hintEmailId">Email Id</string>
+    <string name="hintMobile">Mobile Number</string>
+    <string name="hintDthId">DTH ID</string>
+    <string name="hintDatacard">DataCard Id</string>
+
+    <string name="promptOperator">Operator</string>
+    <string name="promptAmount">Amount</string>
+
+    <string name="hintName">Name</string>
+    <string name="hintUserName">User Name</string>
+    <string name="hintCity">User City</string>
+    <string name="hintState">User State</string>
+    <string name="hintReferedBy">Refered by</string>
+    <string name="hintNewPassword">New Password</string>
+    <string name="hintOldPassword">Old Password</string>
+    <string name="hintOperater">Select Operater</string>
+
+    <string name="hint_login">Login id</string>
+    <string name="hint_password">Password</string>
+
+    <string name="navLogout">Logout</string>
+    <string name="navAddUser">Add New User</string>
+    <string name="navDthRecharge">DTH Recharge</string>
+    <string name="navMobileRecharge">Mobile Recharge</string>
+    <string name="navChangePassword">Change Password</string>
+    <string name="navMyTransactions">My Transactions</string>
+    <string name="navRecentlyPayment">Recently Payments</string>
+    <string name="navDatacardRecharge">Datacard Recharge</string>
+</resources>

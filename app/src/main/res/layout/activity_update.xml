@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_back_white"
+    android:orientation="vertical"
+    tools:context="com.webzone.allbillpay.home.UpdateActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/_6sdp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/promptProfile" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/update_ivName"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:src="@drawable/ic_avtar" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/update_ivAvtar"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            app:civ_border_color="?attr/colorPrimary"
+            app:civ_border_width="@dimen/_1sdp" />
+
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/hintName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="@dimen/_12sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/hintUserName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="@dimen/_12sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/hintEmailId"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="@dimen/_12sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/hintMobile"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="@dimen/_12sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/hintCity"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="@dimen/_12sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/hintState"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="@dimen/_12sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:text="@string/hintReferedBy"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="@dimen/_12sdp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/back"
+                android:gravity="center"
+                android:padding="@dimen/_7sdp"
+                android:text="@string/actionRecharge"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp"
+                android:visibility="gone" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
